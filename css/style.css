@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#e8e5e2;
+}
+
+.navbar-header {
+    float: left;
+    text-align: center;
+    width: 100%;
+	margin:12px 0;
+}
+.navbar-brand {
+	float:none;
+}
+.cust-Navbtn{
+	margin:0 -6%;
+	border:none;
+	height:50px;	
+}
+.cust-btn-container{
+	height:50px; 
+	
+}
+.wrapperOuter{
+	width:100%;
+	background:#fff;
+	overflow:hidden;
+	margin:-319px 0;	
+}
+.wrapperInner{
+	position:relative;
+	left:0;
+	width:200%;
+	height:100%;	
+}
+.freshFoodPanel{
+	width:50%;
+	float:left;
+	background:#fff;
+}
+.cut-main-cont{
+	position:relative;
+	left:0;	
+	background:#fff;
+	margin:0 0;
+	width:50%;
+	float:left;
+
+}
+.foodNameLvBg{
+	background:#fff;
+	height:40px;
+	width:107%;
+	padding:0;	
+	
+}
+.foodNameLvBg div{
+	background:#fff;
+	line-height: 40px;
+	font-size:12px;
+	margin-right:5%;
+}
+.foodNameLv{
+	line-height: 20px;
+	text-align:left;
+	padding:0; 
+}
+.foodNameLv ul li{
+	list-style-type:none;
+	float:left;	
+	margin-left:25%;	
+}
+.cust-navBtmBar li{
+	float:left;
+	list-style-type:none;
+}
+.cust-navBarLow {
+	margin:96px 0;
+	-webkit-box-shadow: -1px 15px 5px 28px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 15px 5px 28px rgba(0,0,0,0.75);
+    box-shadow: -1px 15px 5px 28px rgba(0,0,0,0.75);
+	
+}
+.cust-navBarLow div{	
+	border:#ada59a solid thin;
+	line-height:44px;
+	color:#fff;
+	background: #c0b8ad;
+}
+.cust-navBarLow div:last-child{	
+	border-left:none;
+}
+.cust-navBarLow div a{
+    color:#8c857c;
+	font-size:14px;
+	text-decoration:none;
+	margin:15%;
+}
+.foodDesc{
+	margin-left:1%;
+	color:#000;
+	background:#fff;
+	font-size:12px; 
+	line-height: 40px;
+}
+.cust-like-txt{
+	color:#999;
+}/* popup_box DIV-Styles*/
+#popup_box { 
+    display:none; /* Hide the DIV */
+    position:fixed;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    height:400px;  
+    width:100%;  
+    background:#FFFFFF;  
+    left: 0px;
+    top: 100px;
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: -3px;  
+    
+    /* additional features, can be omitted */
+    border:2px solid #f2f2f2;      
+    padding:15px 0;  
+    font-size:15px;  
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    
+}
+
+#popupBgbox { 
+    display:none; /* Hide the DIV */
+    position:fixed;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    height:100%;  
+    width:100%;  
+    background:#c0b8ad fixed;  
+    left: 0px;
+    top: 0;
+    z-index:99; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    background: rgb(192, 184, 173); /* The Fallback */
+    background: rgba(192, 184, 173); 
+}
+    
+.clickPopup{  
+cursor: pointer;  
+text-decoration:none;  
+} 
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose {
+    font-size:20px;  
+    line-height:15px;  
+    right:5px;  
+    top:5px;  
+    position:absolute;  
+    color:#6fa5e2;  
+    font-weight:500;      
+}
+.active{
+	background:#afd239;
+	height:2px;
+}
+
+.btn-success{
+	background:#afd239;
+	border-color:#afd239;
+}
