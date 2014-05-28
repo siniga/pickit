@@ -167,3 +167,7 @@ text-decoration:none;
 	background:#afd239;
 	border-color:#afd239;
 }
+.btn-success:hover{
+	background:#afd239;
+	color:#000;
+}
