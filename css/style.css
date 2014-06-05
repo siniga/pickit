@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background:#fff;
+	background:#ccc;
 }
 
 .navbar-header {
@@ -23,8 +23,10 @@ body{
 	
 }
 .wrapperOuter{
+	position:relative;
+	top:-50px;
 	width:100%;
-	background:#fff;
+	background:#ccc;
 	overflow:hidden;
 	margin:0px 0;
 }
@@ -32,7 +34,8 @@ body{
 	position:relative;
 	left:0;
 	width:200%;
-	height:100%;	
+	height:100%;
+	background:#F00;	
 }
 .freshFoodPanel{
 	width:50%;
