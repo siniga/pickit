@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background:#ccc;
+	background:#fff;
 }
 
 .navbar-header {
@@ -26,7 +26,7 @@ body{
 	position:relative;
 	top:-50px;
 	width:100%;
-	background:#ccc;
+	background:#fff;
 	overflow:hidden;
 	margin:0px 0;
 }
@@ -35,7 +35,7 @@ body{
 	left:0;
 	width:200%;
 	height:100%;
-	background:#F00;	
+	background:#fff;	
 }
 .freshFoodPanel{
 	width:50%;
@@ -45,8 +45,8 @@ body{
 .cut-main-cont{
 	position:relative;
 	left:0;	
-	background:#fff;
-	margin:0 0;
+	background:#f2f2f2;
+	margin:0 1.%;
 	width:50%;
 	float:left;
 
@@ -167,8 +167,8 @@ text-decoration:none;
 }
 
 .btn-success{
-	background:#afd239;
-	border-color:#afd239;
+	background:#b1c081;
+	border-color:#b1c081;
 }
 .btn-success:hover{
 	background:#afd239;
