@@ -8,10 +8,12 @@ body{
     float: left;
     text-align: center;
     width: 100%;
+	height:40px;
 	margin:12px 0;
 }
 .navbar-brand {
 	float:none;
+	
 }
 .cust-Navbtn{
 	margin:0 -6%;
@@ -43,12 +45,14 @@ body{
 	background:#fff;
 }
 .cut-main-cont{
-	position:relative;
-	left:0;	
-	background:#f2f2f2;
+	position: relative;
+	left: 0;
+	background: #f2f2f2;
+
+
 	margin:0 1.%;
-	width:50%;
-	float:left;
+	width: 50%;
+	float: left;
 
 }
 .foodNameLvBg{
@@ -79,7 +83,7 @@ body{
 	list-style-type:none;
 }
 .cust-navBarLow {
-	margin:96px 0;
+	margin:100px 0;
 	-webkit-box-shadow: -1px 15px 5px 28px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 15px 5px 28px rgba(0,0,0,0.75);
     box-shadow: -1px 15px 5px 28px rgba(0,0,0,0.75);
@@ -90,6 +94,7 @@ body{
 	line-height:44px;
 	color:#fff;
 	background: #c0b8ad;
+	margin:-20px  0;
 }
 .cust-navBarLow div:last-child{	
 	border-left:none;
@@ -162,8 +167,9 @@ text-decoration:none;
     font-weight:500;      
 }
 .active{
-	background:#afd239;
-	height:2px;
+	background:#B1C081;
+	height:5px;
+	margin:20px 0;
 }
 
 .btn-success{
