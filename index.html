@@ -72,7 +72,7 @@
                   <div  class="foodDesc pull-left">satay/mishkaki</div>
                   <div class="pull-right cust-like-txt">
                   <button class="btn btn-success btn-sm " >Order</button>
-                  <button class="btn btn-primary  btn-sm" >like(3)</button>
+                   <button class="btn btn-default btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
                   </div>                  
                 </div> 
                 
@@ -84,13 +84,13 @@
        <div class="row" >
       
                 <div class="col-xs-12" style="padding-left:1%;" >
-                <img src="img/poster/posterlg3.jpg" id="" class="clickPopup imgCenter" />
+                <img src="img/poster/posterlg5.jpg" id="" class="clickPopup imgCenter" />
                 
                 <div class="col-xs-12 foodNameLvBg" >
                   <div  class="foodDesc pull-left">satay/mishkaki</div>
                   <div class="pull-right cust-like-txt">
                   <button class="btn btn-success btn-sm " >Order</button>
-                  <button class="btn btn-primary  btn-sm" >like(2)</button>
+                  <button class="btn btn-default  btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
                   </div>                  
                 </div> 
                 
@@ -109,7 +109,7 @@
                   <div  class="foodDesc pull-left">satay/mishkaki</div>
                   <div class="pull-right cust-like-txt">
                   <button class="btn btn-success btn-sm " >Order</button>
-                  <button class="btn btn-primary  btn-sm" >like(1)</button>
+                   <button class="btn btn-primary  btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
                   </div>                  
                 </div> 
                 
@@ -179,7 +179,12 @@
   </script>
   
   <script>
-     
+      $(document).on("pagecreate","#pageone",function(){
+        
+		$("img").on("swipe",function(){
+        alert("hey");
+      });                       
+    });
   </script>
   <script type="text/javascript" src="js/popUp.js"></script>
   <script type="text/javascript" src="js/linksunderline.js"></script>
