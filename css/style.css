@@ -20,6 +20,11 @@ body{
 	border:none;
 	height:50px;	
 }
+.cust-collapse-nav{
+	position:relative;
+	z-index:9;
+	background:#fff;
+}
 .cust-btn-container{
 	height:50px; 	
 }
@@ -94,7 +99,7 @@ body{
 	list-style-type:none;
 }
 .cust-navBarLow {
-	margin:60px 0;
+	margin:40px 0;
 }
 .cust-navBarLow div{	
 	border:#ada59a solid thin;
