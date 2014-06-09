@@ -52,16 +52,16 @@ body{
 	color:#666 !important;	
 }
 .freshFoodPanel{
-	width:50%;
+	width:49%;
 	float:left;
 	background:#fff;
 }
 .cut-main-cont{
 	position: relative;
 	left: 0;
-	background: #f2f2f2;
-	margin:0 1%;
-	width: 50%;
+	background: #fff;
+	margin:0 2%;
+	width: 47%;
 	float: left;
 
 }
