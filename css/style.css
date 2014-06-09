@@ -55,9 +55,14 @@ body{
 	position: relative;
 	left: 0;
 	background: #f2f2f2;
-	margin:0 1.%;
+	margin:0 1%;
 	width: 50%;
 	float: left;
+
+}
+.imgCenter{
+	width:100%;
+	margin:0 auto;
 
 }
 .foodNameLvBg{
