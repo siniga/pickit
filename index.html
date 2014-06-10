@@ -13,40 +13,23 @@
 
 </head> 
 <body > 
-  <div class="navbar navbar-inverse navbar-fixed-top" style="background:#333;height:122px; border:none; padding:">
-       <div class="container cust-btn-container" >
-      
-      <button class="navbar-toggle pull-left cust-Navbtn navbar-static-top"  data-toggle="collapse" data-target="#navHeaderCollapse">       
-       <br />
-          <span class="icon-bar" style="background:#666;"></span>
-          <span class="icon-bar" style="background:#666;"></span>
-          <span class="icon-bar" style="background:#666;"></span>
-              
-       </button>
-       
-     <div class="navbar-header" >
-        <a class="navbar-brand" href="#" style="position:relative;top:-7px;"><img src="img/resources/masosiLogo.png"  width="150"/></a>
-     </div>
-     
-        <!-- <span class="glyphicon glyphicon-search" style="vertical-align:middle;"></span>-->
-       <div class="collapse navbar-collapse cust-collapse-nav" id="navHeaderCollapse">          
-          <ul class="nav navbar-nav navbar-left">
-          
-             <li>Home</li>
-             <li>Popular</li>
-             <li>Contact</li>
-          </ul>
-       
-       </div>             
-    </div>  
+  <div class="navbar navbar-inverse navbar-fixed-top cust-navbar">
+       <div class="container cust-btn-container" >    
+            <div class="navbar-header container" >
+            
+                <a class="navbar-brand" href="#" style="position:relative;top:-15px;">
+                  <img src="img/resources/masosiLogo.png"  />
+                </a>
+          </div>                 
+       </div>  
     
-     <div class="cust-navBarLow"  >
+      <div class="cust-navBarLow"  >
    
-        <div class="navbar-inverse cust-navbar-inverse" role="navigation">
-               <div class="col-xs-6 cookedFoodLnk">Cooked Food</div>
-               <div class="col-xs-6 freshFoodLnk">Fresh Food</div>
-               
-        </div>
+           <div class="navbar-inverse cust-navbar-inverse" role="navigation">
+                <div class="col-xs-6 cookedFoodLnk">Cooked Food</div>
+                <div class="col-xs-6 freshFoodLnk">Fresh Food</div>              
+          </div>
+          
              <span class="col-xs-6 activeLeft active"></span>
              <span class="col-xs-6 activeRight"></span>
         
@@ -62,16 +45,29 @@
      <div class="wrapperInner">
      
     <div class="container cut-main-cont">
-     <h4 style="color:#aabe70;text-align:center;"><img src="img/resources/todaymenu.png" /></h4>
-      <div class="row" >
-      
+    
+     <h4 style="color:#aabe70;text-align:center;">
+     <div class="row" style="margin:0 -18%;">
+         <div class="col-xs-6">
+              <img src="img/resources/todaymenu.png" />
+         </div>
+         
+         <div class="col-xs-6">
+         <!-- Single button -->
+         <div class="btn-group" style="position:relative; top:-10px;">
+               <a href="tel:+255687772368" class="phoneNum">call us</a>
+          </div>
+      </div> 
+     </h4>
+     
+      <div class="row" >      
            <div class="col-xs-12" style="padding-left:1%;" >
                 <img src="img/poster/posterlg4.jpg" id="" class="clickPopup imgCenter" />
                 
                 <div class="col-xs-12 foodNameLvBg" >
                   <div  class="foodDesc pull-left">satay/mishkaki</div>
                   <div class="pull-right cust-like-txt">
-                  <button class="btn btn-success btn-sm " >Order</button>
+                  <button class="btn btn-success btn-sm  orderBtn" id="1" >Order</button>
                    <button class="btn btn-default btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
                   </div>                  
                 </div> 
@@ -89,7 +85,7 @@
                 <div class="col-xs-12 foodNameLvBg" >
                   <div  class="foodDesc pull-left">satay/mishkaki</div>
                   <div class="pull-right cust-like-txt">
-                  <button class="btn btn-success btn-sm " >Order</button>
+                  <button class="btn btn-success btn-sm  orderBtn" id="2" >Order</button>
                   <button class="btn btn-default  btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
                   </div>                  
                 </div> 
@@ -108,8 +104,8 @@
                 <div class="col-xs-12 foodNameLvBg" >
                   <div  class="foodDesc pull-left">satay/mishkaki</div>
                   <div class="pull-right cust-like-txt">
-                  <button class="btn btn-success btn-sm " >Order</button>
-                   <button class="btn btn-primary  btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
+                  <button class="btn btn-success btn-sm " id="3" >Order</button>
+                    <button class="btn btn-default btn-sm" ><img src="img/resources/love.png" width="20" />23</button>
                   </div>                  
                 </div> 
                 
@@ -178,15 +174,6 @@
 	   
   </script>
   
-  <script>
-      $(document).on("pagecreate","#pageone",function(){
-        
-		$("img").on("swipe",function(){
-        alert("hey");
-      });                       
-    });
-  </script>
-  <script type="text/javascript" src="js/popUp.js"></script>
   <script type="text/javascript" src="js/linksunderline.js"></script>
   <script type="text/javascript" src="js/loadpage.js"></script>
 </body>
